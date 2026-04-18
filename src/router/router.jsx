@@ -1,11 +1,11 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 
 import { Home } from "../features/home/pages/home"; 
 import { AboutMe } from "../features/about-me/pages/about-me"; 
 import { DashboardLayout } from "../common/layouts/dashboard-layout";
 import { TodoModule } from '../features/todo/TodoModule';
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([ 
   {
     path: "/",
     Component: DashboardLayout,
