@@ -25,7 +25,7 @@ export const Home = () => {
     <div style={{ padding: '2rem', color: 'white' }}>
       <header style={{ marginBottom: '3rem' }}>
         <h1 style={{ fontSize: '2.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
-          ¡Hola! 
+          ¡Hola,soy Edson! 
         </h1>
         <p style={{ color: '#94a3b8', fontSize: '1.1rem' }}>Hoy es {date}</p>
       </header>
